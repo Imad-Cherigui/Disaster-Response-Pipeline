@@ -1,9 +1,10 @@
 # Disaster-response-pipeline
+### Description:
 Building a web-app using machine learning to train and deploy a multioutput model designed to help classify messages into diffrent categories (fire, medical help...).
 Such an application should prove helpful especially in time of crisis when first responders are flooded with messages and being able to correctly classify these messages may be critical giving the time sensitive nature of emergencies.
 
 
-##How it works:
+### How it works:
 The project consists of a pipeline that:
 - Injest the two data sets (messages and catagories), cleans and merges them (data/process_data.py) and then produces a database (data/data_base.db)
 - Using the database created, it then trains and executes a multi output classifier and fine tunes it with GridSearch (models/process_data.py), the resulting model is stored an Pickle file (models/model.pkl) 
@@ -24,7 +25,7 @@ The project consists of a pipeline that:
 3. Go to https://view6914b2f4-3001.udacity-student-workspaces.com/
 
 
-#### Project structure
+### Project structure
 - app
 | - template
 | |- master.html  # main page of web app
