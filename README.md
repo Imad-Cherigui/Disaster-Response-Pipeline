@@ -26,20 +26,20 @@ The project consists of a pipeline that:
 
 
 ### Project structure
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+- /app
+    - /template
+        - master.html  # main page of web app
+        - go.html  # classification result page of web app
+    - run.py  # Flask file that runs app
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py # Python file to merge and clean the datasets
-|- data_base.db   # database to save clean data to
+- /data
+    - disaster_categories.csv  # data to process 
+    - disaster_messages.csv  # data to process
+    - process_data.py # Python file to merge and clean the datasets
+    - data_base.db   # database to save clean data to
 
-- models
-|- train_classifier.py # python file to build, train and export the model
-|- model.pkl  # saved model 
+- /models
+    - train_classifier.py # python file to build, train and export the model
+    - model.pkl  # saved model 
 
 - README.md
